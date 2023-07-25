@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./src/style/style.sass">
+    <title>Home</title>
+  </head>
+  <body>
+    <h1>Home</h1>
+    <div id="root">
+      <img src="src/img/sowon.png" width="320" height="220" alt="Kim Sojung"/>
+    </div>
+    <script type="module" src="./src/main.ts"></script>
+    <script type="module">
+      import * as gfriend from './src/db.json';
+      import text from './src/text.txt?raw';
+
+      console.log(gfriend.name)
+      console.log(text);
+    </script>
+  </body>
+</html>

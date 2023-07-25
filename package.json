@@ -1,0 +1,26 @@
+{
+  "name": "learning-vite",
+  "version": "1.0.0",
+  "description": "Learning Vite from basic",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "Vite",
+    "Typescript",
+    "Javascript",
+    "frontend-build-tools"
+  ],
+  "author": "Mathius",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.64.1",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.7"
+  }
+}
